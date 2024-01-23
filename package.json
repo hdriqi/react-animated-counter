@@ -1,63 +1,64 @@
 {
-  "name": "react-animated-counter",
-  "version": "1.7.6",
-  "description": "React Animated Counter Component",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
-  "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TuckerMassad/react-animated-counter.git"
-  },
-  "keywords": [
-    "react",
-    "animated",
-    "counter",
-    "components",
-    "ui",
-    "number-animation",
-    "number",
-    "animation",
-    "robinhood",
-    "style",
-    "up",
-    "down",
-    "money",
-    "counting",
-    "increment",
-    "decrement",
-    "tick",
-    "ticker"
-  ],
-  "author": "tuckermassad",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TuckerMassad/react-animated-counter/issues"
-  },
-  "homepage": "https://github.com/TuckerMassad/react-animated-counter#readme",
-  "peerDependencies": {
-    "react": ">=16"
-  },
-  "dependencies": {
-    "framer-motion": "^10.11.4",
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.202",
-    "@types/react": "^18.0.12",
-    "framer-motion": "^10.11.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rollup-plugin-sourcemaps": "^0.6.3"
-  },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ]
+	"name": "react-animated-counter",
+	"version": "1.7.6",
+	"description": "React Animated Counter Component",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/esm/index.js",
+	"types": "./dist/esm/index.d.ts",
+	"scripts": {
+		"build": "yarn build:esm && yarn build:cjs",
+		"build:esm": "tsc",
+		"build:cjs": "tsc --module commonjs --outDir dist/cjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TuckerMassad/react-animated-counter.git"
+	},
+	"keywords": [
+		"react",
+		"animated",
+		"counter",
+		"components",
+		"ui",
+		"number-animation",
+		"number",
+		"animation",
+		"robinhood",
+		"style",
+		"up",
+		"down",
+		"money",
+		"counting",
+		"increment",
+		"decrement",
+		"tick",
+		"ticker"
+	],
+	"author": "tuckermassad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TuckerMassad/react-animated-counter/issues"
+	},
+	"homepage": "https://github.com/TuckerMassad/react-animated-counter#readme",
+	"peerDependencies": {
+		"react": ">=16"
+	},
+	"dependencies": {
+		"framer-motion": "^10.11.4",
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.202",
+		"@types/react": "^18.0.12",
+		"framer-motion": "^10.11.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"rollup-plugin-sourcemaps": "^0.6.3",
+		"typescript": "^5.3.3"
+	},
+	"files": [
+		"dist",
+		"LICENSE",
+		"README.md"
+	]
 }
